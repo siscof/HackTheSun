@@ -20,7 +20,8 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int tunk =0;
+            FormConfig aa = new FormConfig();
+            DialogResult dr = aa.ShowDialog();
             return;
         }
 
